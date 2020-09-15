@@ -2,12 +2,12 @@ package project;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+public class AppTest {
 
-class AppTest {
     @Test
-    void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+    public void countToTen(){
+        for (int i = 0; i<10; i++){
+            System.out.println(i);
+        }
     }
 }
